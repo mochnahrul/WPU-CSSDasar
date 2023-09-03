@@ -1,0 +1,74 @@
+.lorem:link {
+  color: salmon;
+}
+
+.lorem:hover {
+  color: lightsalmon;
+}
+
+.lorem:active {
+  color: lightsalmon;
+}
+
+.lorem:visited {
+  color: lightsalmon;
+}
+
+/* Memilih elemen pertama dari sebuah parent (elemen pembungkusnya) */
+
+/* li:first-child a {
+  color: green;
+} */
+
+/* Memilih elemen terakhir dari sebuah parent (elemen pembungkusnya) */
+
+/* li:last-child a {
+  color: green;
+} */
+
+/* Memilih elemen ke-n dari sebuah parent (elemen pembungkusnya) */
+/* n bisa berarti urutan (1), (2), ... atau pola (2n), (3n+2), (4n-1) atau ganjil (even) dan genap (odd) */
+
+li:nth-child(odd) a {
+  color: blue;
+}
+
+li:nth-child(odd) a:hover {
+  color: lightblue;
+}
+
+li:nth-child(odd) a:active {
+  color: lightblue;
+}
+
+li:nth-child(odd) a:visited {
+  color: lightblue;
+}
+
+li:nth-child(even) a {
+  color: green;
+}
+
+li:nth-child(even) a:hover {
+    color: lightgreen;
+}
+
+li:nth-child(even) a:active {
+  color: lightgreen;
+}
+
+li:nth-child(even) a:visited {
+  color: lightgreen;
+}
+
+/* Memilih elemen pertama dari sebuah jenis/tipe tag */
+
+p:first-of-type {
+  color: blue;
+}
+
+/* Memilih elemen terakhir dari sebuah jenis/tipe tag */
+
+p:last-of-type {
+  color: green;
+}

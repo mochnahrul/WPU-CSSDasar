@@ -1,0 +1,17 @@
+/* body {
+  background-color: lightblue;
+  background-image: url(image/mai.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+} */
+
+/* Background Position */
+/* background-position-y: top | center | bottom; */
+/* background-position-x: left | center | right; */
+
+/* Shorthand */
+/* background: <color> <url()> <background-position> <background-repeat>; */
+
+body {
+  background: lightblue url(image/mai.png) center center no-repeat;
+}

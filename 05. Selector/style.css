@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2 {
+  color: blue;
+}
+
+ul li a {
+  color: red;
+}
+
+ol li a {
+  color: orange;
+}
+
+/* Selector #id */
+/* - Sebuah elemen HTML hanya boleh memiliki satu #id */
+/* - Setiap halaman hanya boleh memiliki satu elemen dengan #id tersebut */
+/* - Dapat digunakan sebagai penanda halaman untuk link  */
+/* - Digunakan juga untuk javascript */
+/* - Sebaiknya tidak digunakan untuk CSS (lebih baik gunakan class) */
+
+#p1 {
+  color: red;
+}
+
+/* Selector .class */
+/* - Bisa digunakan berulang kali */
+
+.p2 {
+  color: orange;
+}
+
+.dua-class {
+  font-style: italic;
+}
